@@ -1,0 +1,24 @@
+.form{
+    background-color: hotpink;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+}
+
+.selection{
+    margin: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    margin: 70px;
+    padding: auto;
+    background-color: aqua;
+    border-radius: 2px bold black;
+    border: 2px bold black;
+    text-align: center;
+}
