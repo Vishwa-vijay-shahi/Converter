@@ -23,6 +23,16 @@ function convertBase(fromBase, toBase, num) {
 }
 
 document.getElementById("swap").addEventListener("click", () => {
+    // check from
+    let fromValue = from.value
+    // check to
+    let toValue = to.value
+    // check input number
+    let inputValue = inputNumber.value
+    // convert input number "from" to "to"
+    let result = convertBase(toValue,fromValue,inputValue)
+    // show the result in result box
+    resultBox.innerText = result
     let temp = from.value
     from.value = to.value
     to.value = temp
